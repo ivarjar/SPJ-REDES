@@ -1,0 +1,25 @@
+table {
+  border: 5px solid olivedrab;
+  align-items: center; }
+
+th {
+  font-style: italic;
+  background-color: #b31c1c;
+  border: 2px solid;
+  color: aliceblue; }
+
+tr {
+  border: 2px solid; }
+
+td {
+  border: 2px solid; }
+
+.title {
+  font-family: monospace;
+  color: #2e1a9c; }
+
+p {
+  font-family: "Segoe UI";
+  background-color: gray;
+  display: inline-block;
+  color: white; }

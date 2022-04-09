@@ -1,7 +1,6 @@
 {
   "name": "4-desafio-sass-1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -292,9 +291,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-sass":"node-sass --include-path scss sass/index.sass css/main.css"
+    "build-sass": "node-sass --include-path scss sass/index.scss css/main.css",
+    "watch-sass":"nodemon -e scss -x \"npm run build-sass\""
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
