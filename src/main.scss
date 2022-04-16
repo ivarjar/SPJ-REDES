@@ -1,0 +1,21 @@
+//importar fuente para texto de cards
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+//preparar css custom -> editar bootstrap
+    //justificado y cambio de letra
+    .txtCardsProductos{
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+    }
+    //edición de border de las imágenes
+        $thumbnail-border-width:            0.15rem;
+        $thumbnail-border-color:            #76b7f8;
+        $thumbnail-border-radius:           0.5rem;
+
+    //gradiente de color para el fondo
+    .gradient-custom {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(173, 235, 255, 0.5))
+    }
+
+//build de scss bootstrap a css
+@import "../node_modules/bootstrap/scss/bootstrap";
