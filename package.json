@@ -1,0 +1,21 @@
+{
+  "name": "desafio_final",
+  "version": "1.0.0",
+  "description": "Proyecto desafio final CODERHOUSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss src/main.scss css/custom.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.50.0"
+  }
+}
